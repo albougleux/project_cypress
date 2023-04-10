@@ -1,0 +1,10 @@
+{
+  "username": "testuser",
+  "password": "jr123",
+  "incorrectUsername": "test@123.-_",
+  "incorrectPassword": "Teste123*",
+  "invalidUsername": "↶ ↷ ↸      a d    b          ",
+  "invalidPassword": "↶ ↷ ↸      a d    c          ",
+  "largeInput": "Asdfofhdsfjdsb@nsadnlskad484psnsjcisi.com",
+  "specialCharacters": "↶ ↷ ↸ ↹ ↺ ↻ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇄ ⇅ ⇆ ⇇↶ ↷ ↸ ↹ ↺ ↻"
+}
