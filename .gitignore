@@ -1,2 +1,5 @@
 # Miscellaneous
 node_modules
+/cypress/screenshots
+/cypress/videos
+allure-results
