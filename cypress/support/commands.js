@@ -1,13 +1,3 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-
 Cypress.Commands.add('login', (email, password) => {
   cy.get('#normal_login_username').type(email);
   cy.get('#normal_login_password').type(password);
@@ -18,10 +8,12 @@ Cypress.Commands.add('tableData', (item, index) => {
   cy.get(`table tr:nth-child(${index + 1}) td:nth-child(1)`).should(
     'contain',
     item.name
+
   );
   cy.get(`table tr:nth-child(${index + 1}) td:nth-child(2)`).should(
     'contain',
     item.borrow
+    
   );
   cy.get(`table tr:nth-child(${index + 1}) td:nth-child(3)`).should(
     'contain',
