@@ -11,7 +11,7 @@ const invalidFieldCredentials = [
   user.largeInput,
 ];
 
-describe('Login Page', () => {
+describe('Login Page Tests', () => {
   beforeEach(() => {
     cy.visit('/#/sign_in?last_page=/');
   });

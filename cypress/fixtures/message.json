@@ -3,5 +3,6 @@
   "inputPassword": "Please input your Password.",
   "invalidUsername": "Enter a valid username",
   "invalidPassword": "Enter a valid password",
-  "incorrectCredentials": "There was a problem logging in: Login/Password is incorrect"
+  "incorrectCredentials": "There was a problem logging in: Login/Password is incorrect",
+  "footerRights": "© 2023 Venturus. All rights reserved"
 }
