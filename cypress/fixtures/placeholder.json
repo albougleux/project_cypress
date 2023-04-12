@@ -1,0 +1,8 @@
+{
+  "input": "Only letters and numbers are allowed",
+  "select": "Select a country",
+  "cascader": "Please select",
+  "datepicker": "Select date",
+  "inputNumber": 1,
+  "textArea": "write a comment"
+}
